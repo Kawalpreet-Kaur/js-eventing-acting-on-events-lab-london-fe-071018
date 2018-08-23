@@ -4,7 +4,7 @@ let dodger=document.getElementById('dodger');
 
 // dodger.style.backgroundColor='#000000'
 
-dodger.addEventListener('keydown',el=>{
+document.addEventListener('keydown',el=>{
   let elValues=parseInt(el.which||el.details);
   console.log('elValues=',elValues);
   let dodgerMovement;
